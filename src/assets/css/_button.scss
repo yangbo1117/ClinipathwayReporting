@@ -1,0 +1,26 @@
+.create-btn{
+    cursor: pointer;
+    min-height: 32px;
+    padding: 4px 25px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #4680FF;
+    color: #4680FF;
+    &:hover{
+        opacity: 0.8;
+        box-shadow: 0 0 12px 0 #ccc;
+    }
+}
+.create-btn-s{
+    cursor: pointer;
+    min-height: 28px;
+    padding: 2px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #4680FF;
+    color: #4680FF;
+    &:hover{
+        opacity: 0.8;
+        box-shadow: 0 0 12px 0 #ccc;
+    }
+}

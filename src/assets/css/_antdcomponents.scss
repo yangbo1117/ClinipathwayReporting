@@ -1,0 +1,24 @@
+.steps-content {
+    margin-top: 26px;
+    border: 1px dashed #e9e9e9;
+    border-radius: 2px;
+    background-color: #fafafa;
+    min-height: 200px;
+    // text-align: center;
+  }
+  
+.steps-action {
+  margin-top: 24px;
+}
+
+.ant-steps-item{
+  padding-bottom: 4px;
+}
+
+.ant-steps-item:first-child{
+  padding-left: 16px !important;
+}
+
+.ant-menu-submenu-title{
+  overflow: visible !important;
+}

@@ -1,0 +1,89 @@
+$minwidth: 992px;
+#baseLayout{
+    #custommenu{
+        z-index: 10;
+        position: relative;
+        .custommenu_logo{
+            height: 32px;
+            line-height: 32px;
+            margin: 16px;
+            display: flex;
+            img{
+                display: block;
+                height: 100%;
+            }
+            span{
+                color:rgba(255, 255, 255, 0.75);
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+        .ant-layout-sider{
+            .ant-layout-sider-zero-width-trigger{
+                top: 10px;
+                color: #555;
+                right: -54px;
+                font-size: 28px;
+                font-weight: 700;
+                background-color: #fff;
+            }
+        }
+    }
+    .site-layout-sub-header-background{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 7;
+        padding-left: 250px;
+        .baselayout_header_box{
+            display: flex;
+            float: right;
+            align-items: center;
+            line-height: 64px;
+            &::after{
+                content: '';
+                clear: both;
+            }
+            .baselayout_header_bell{
+                position: relative;
+                .baselayout_header_icon{
+                    padding: 0 12px;
+                    cursor: pointer;
+                }
+                .baselayout_header_card{
+                    position: absolute;
+                    top: 64px;
+                    margin-top: 6px;
+                    right: 0;
+                    border-radius: 4px;
+                    overflow:'hidden';
+                    box-shadow: 0 2px 6px 0 rgba(29,201,183,.7);
+                }
+            }
+            .baselayout_header_user{
+                position: relative;
+                .baselayout_header_userpic{
+                    padding: 0 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:$minwidth){
+        #custommenu{
+            position: absolute;
+            left: 0;
+            // opacity: 0.8;
+        }
+        .site-layout-sub-header-background{
+            padding-left: 0;
+        }
+    }
+    @media screen and (min-width:$minwidth){
+        #custommenu{
+            padding-right: 250px;
+        }
+    }
+}
+

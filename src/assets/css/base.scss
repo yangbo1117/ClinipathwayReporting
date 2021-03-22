@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS layout */
+
+/* 默认样式 */
+html{overflow-y:scroll; overflow-x: hidden;}
+body,div,ul,li,dl,dd,span,img,input,form{ margin:0; padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd{ margin:0;}
+ul,ol{padding:0;}
+
+a{ text-decoration:none; color:#333; }
+li{ list-style:none; }
+img{ border:none 0;}
+input{ outline:none; border:none; background:none;}
+input,textarea,select{ margin:0; }					
+input,textarea{ padding:0;}
+input::-ms-clear{display:none;}
+
+//全屏显示的背景色
+:-webkit-full-screen {  
+    background-color: #fff !important;  
+}  
+:-moz-full-screen {  
+    background-color: #fff !important;  
+}  
+
+:-ms-fullscreen {  
+    background-color: #fff !important;  
+}  
+
+:fullscreen {  
+    background-color: #fff !important;  
+}  
+// #scatterChina:-webkit-full-screen {
+//     background-color: #056197 !important;
+// }
+// #scatterChina:-moz-full-screen {
+//     background-color: #056197 !important;
+// }
+// #scatterChina:-ms-fullscreen {
+//     background-color: #056197 !important;
+// }
+// #scatterChina:fullscreen{
+//     background-color: #056197 !important;
+// }

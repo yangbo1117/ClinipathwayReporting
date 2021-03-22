@@ -1,0 +1,32 @@
+.span-href {
+    cursor: pointer;
+    color: #6967CE;
+}
+
+.color6967CE{
+    color: #6967CE;
+}
+.color7050b5 {
+    color: #7050b5;
+}
+
+.span-cursor {
+    cursor: pointer;
+}
+
+.edit-input {
+    &:hover{
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        padding: 4px 11px;
+    }
+}
+.editable-cell-value-wrap{
+    padding: 5px 12px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        padding: 4px 11px;
+    }
+}

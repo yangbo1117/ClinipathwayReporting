@@ -1,0 +1,45 @@
+.card{
+    margin: 1rem;
+    padding: 1rem;
+}
+.card_title{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba($color: #000000, $alpha: .8);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.cardbody {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    background-color: #2DBE60;
+}
+
+.img{
+    display: block;
+    cursor: pointer;
+    width: 220px;
+    height: 220px;
+    transform: scale(.95);
+    transition: all .2s ease-out;
+    &:hover{
+        transform:scale(1.05);
+    }
+}
+
+.shadow{
+    box-shadow: 2px 2px 6px 0 #eee;
+    // &:hover{
+    // }
+}
+

@@ -1,0 +1,76 @@
+.cursor {
+    cursor: pointer;
+}
+.title {
+    font-size: 17px;
+    font-weight: 600;
+    // width: 250px;
+    word-break:break-all;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    -icab-text-overflow: ellipsis;
+    -khtml-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+.canvas {
+    width: 100%;
+    // height: calc(100% - 40px);
+    height: 100%;
+}
+.base_card {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 1rem;
+    width: 100%;
+}
+.design_card {
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 3px 8px hsla(0,0%,51.8%,.26);
+}
+.flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 40px);
+}
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.emptymask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.loadmask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+}
